@@ -1,5 +1,4 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HqCSRDLt)
-# Note to all, please do not modify the yml file under .github/workflows. This includes for this assignment and other assignments in the future. If you think the workflow is faulty in any way, please post in the discussion. Thank you!
 
 # Homework 3: Big Data Analysis
 
@@ -104,7 +103,7 @@ echo "Rscript calculate_Temp.R ran in ${runtime} seconds."
 
 ### Interactive Visualization Dashboard
 
-**Visualization Link:** [Global Temperature Analysis Dashboard](https://github.com/YOUR_USERNAME/bst236-temp-visualization)
+**Visualization Link:** [Global Temperature Analysis Dashboard](https://junhaoluo0310.github.io/236hw-3/)
 
 **Features:**
 - Interactive summary statistics (total stations, global average, hottest/coldest cities)
