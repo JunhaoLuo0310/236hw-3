@@ -19,8 +19,9 @@ Complete the following problems on Leetcode.
 - [Fill missing data](https://leetcode.com/problems/fill-missing-data/)
 
 Add your code to `leetcode.py` and add a screenshot of the Leetcode submission result to `README.md`. To practice your coding skills, we suggest you try to solve the problems without the help of AI at least for the first attempt.
-
-
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 ## Problem 2: Big Data Analysis in Python
 
 
