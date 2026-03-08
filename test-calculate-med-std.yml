@@ -1,0 +1,35 @@
+name: Test Calculate MED STD
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-calculate-med-std:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install duckdb
+    - name: Create Measurements
+      run: |
+        python createMeasurements.py
+    - name: Run Calculate MED STD
+      run: |
+        python calculate_MED_STD.py > python.txt
+    - name: Compare Results
+      run: |
+        git diff --no-index --word-diff=porcelain .github/test/test_python.txt python.txt 
